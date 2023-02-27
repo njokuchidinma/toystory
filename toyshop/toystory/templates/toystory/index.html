@@ -2,11 +2,10 @@
 <html lang="en">
 
 
-<!-- Mirrored from htmldemo.net/toyqo/toyqo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Feb 2023 19:51:43 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toyqo - Kids Store Bootstrap 5 Template</title>
+    <title>Toystory</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -34,32 +33,33 @@
 <body>
 
     <!-- Header Section Start -->
-    <div class="header section">
+    <div class="header">
 
         <!-- Header Top Start -->
-        <div class="header-top bg-primary">
+        <div class="header-top bg-secondary">
             <div class="container">
                 <div class="row align-items-center">
 
                     <!-- Header Top Message Start -->
                     <div class="col-12">
                         <div class="header-top-msg-wrapper text-center">
-                            <p class="header-top-message text-center">Up to 50% off for <strong>Winter</strong> Collections <a href="shop.html" class="btn btn-hover-dark btn-secondary">Shop Now</a></p>
+                            <p class="header-top-message text-center">Get to 25% off for <strong>Spring</strong> Collections <a href="shop.html" class="btn btn-hover-dark btn-secondary">Shop Now</a></p>
                             <div class="header-top-close-btn">
                                 <button class="top-close-btn"><i class="pe-7s-close"></i></button>
                             </div>
                         </div>
                     </div>
                     <!-- Header Top Message End -->
+
                 </div>
             </div>
         </div>
         <!-- Header Top End -->
 
-        <!-- Header Bottom Start -->
-        <div class="header-bottom">
+        <!-- Header Navigate Bottom Start -->
+        <div class="header-bottom header-wide">
             <div class="header-sticky">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row align-items-center position-relative">
 
                         <!-- Header Logo Start -->
@@ -72,7 +72,6 @@
 
                         <!-- Header Menu Start -->
                         <div class="col-lg-6 d-none d-lg-block">
-
                             <div class="main-menu">
                                 <ul>
                                     <li class="has-children">
@@ -157,34 +156,64 @@
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
-
                         </div>
                         <!-- Header Menu End -->
 
                         <!-- Header Action Start -->
-                        <div class="col-md-6 col-lg-3 col-xl-4 col-6 justify-content-end">
-                            <div class="header-actions">
-                                <a href="javascript:void(0)" class="header-action-btn header-action-btn-search d-none d-lg-block"><i class="pe-7s-search"></i></a>
-                                <div class="dropdown-user d-none d-lg-block">
-                                    <a href="javascript:void(0)" class="header-action-btn"><i class="pe-7s-user"></i></a>
-                                    <ul class="dropdown-menu-user">
-                                        <li><a class="dropdown-item" href="#">Usd</a></li>
-                                        <li><a class="dropdown-item" href="#">Pound</a></li>
-                                        <li><a class="dropdown-item" href="#">Taka</a></li>
-                                    </ul>
+                        <div class="col-md-6 col-lg-3 col-xl-4 col-6">
+                            <div class="header-actions header-actions-width">
+
+                                <!-- Header Action Left Side Start -->
+                                <div class="header-action-left">
+                                    <!-- Search bar Start -->
+                                    <form action="#" class="search-bar d-xl-flex d-none position-relative">
+                                        <input type="text" placeholder="Search our store" class="search-bar-input">
+                                        <button class="search-bar-button"><i class="pe-7s-search"></i></button>
+                                    </form>
+                                    <!-- Search bar Start -->
+
                                 </div>
-                                <a href="wishlist.html" class="header-action-btn header-action-btn-wishlist">
-                                    <i class="pe-7s-like"></i>
-                                </a>
-                                <a href="javascript:void(0)" class="header-action-btn header-action-btn-cart">
-                                    <i class="pe-7s-cart"></i>
-                                    <span class="header-action-num">3</span>
-                                </a>
-                                <!-- Mobile Menu Hambarger Action Button Start -->
-                                <a href="javascript:void(0)" class="header-action-btn header-action-btn-menu d-lg-none d-md-block">
-                                    <i class="fa fa-bars"></i>
-                                </a>
-                                <!-- Mobile Menu Hambarger Action Button End -->
+                                <!-- Header Action Left Side End -->
+
+                                <!-- Header Action Right Side Start -->
+                                <div class="header-action-right">
+
+                                    <!-- Search Action Button Start -->
+                                    <a href="javascript:void(0)" class="header-action-btn header-action-btn-search d-xl-none d-lg-block d-none"><i class="pe-7s-search"></i></a>
+                                    <!-- Search Action Button End -->
+
+                                    <!-- User Dropdown Start -->
+                                    <div class="dropdown-user d-none d-lg-block">
+                                        <a href="javascript:void(0)" class="header-action-btn"><i class="pe-7s-user"></i></a>
+                                        <ul class="dropdown-menu-user">
+                                            <li><a class="dropdown-item" href="#">Usd</a></li>
+                                            <li><a class="dropdown-item" href="#">Pound</a></li>
+                                            <li><a class="dropdown-item" href="#">Taka</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- User Dropdown End -->
+
+                                    <!-- Wishlist Action Button Start -->
+                                    <a href="wishlist.html" class="header-action-btn header-action-btn-wishlist">
+                                        <i class="pe-7s-like"></i>
+                                    </a>
+                                    <!-- Wishlist Action Button End -->
+
+                                    <!-- Cart Action Button Start -->
+                                    <a href="javascript:void(0)" class="header-action-btn header-action-btn-cart">
+                                        <i class="pe-7s-cart"></i>
+                                        <span class="header-action-num">3</span>
+                                    </a>
+                                    <!-- Cart Action Button End -->
+
+                                    <!-- Mobile Menu Hambarger Action Button Start -->
+                                    <a href="javascript:void(0)" class="header-action-btn header-action-btn-menu d-lg-none d-md-block">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                    <!-- Mobile Menu Hambarger Action Button End -->
+
+                                </div>
+                                <!-- Header Action Right Side End -->
 
                             </div>
                         </div>
@@ -351,12 +380,11 @@
 
                 <div class="hero-slide-item swiper-slide">
                     <div class="hero-slide-bg">
-                        <img src="assets/images/slider/slider1-1.png" alt="Slider Image" />
+                        <img src="assets/images/slider/slider3-1.png" alt="Slider Image" />
                     </div>
                     <div class="container">
                         <div class="hero-slide-content">
-                            <h2 class="title m-0">Get -30% off</h2>
-                            <p>Latest baby product & toy collections.</p>
+                            <h2 class="title m-0"> Baby Toy <br />For Birthday Gift </h2>
                             <a href="shop.html" class="btn btn-primary btn-hover-light">Shop Now</a>
                         </div>
                     </div>
@@ -364,320 +392,414 @@
 
                 <div class="hero-slide-item swiper-slide">
                     <div class="hero-slide-bg">
-                        <img src="assets/images/slider/slider1-2.png" alt="Slider Image" />
+                        <img src="assets/images/slider/slider3-2.png" alt="Slider Image" />
                     </div>
                     <div class="container">
                         <div class="hero-slide-content">
-                            <h2 class="title m-0"> New Arrivals <br />Get flat 50% off </h2>
+                            <h2 class="title m-0">Baby Gift Collection</h2>
+                            <p>Check out the best gift collection for your baby.</p>
                             <a href="shop.html" class="btn btn-primary btn-hover-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!-- Swiper Pagination Start -->
-            <div class="swiper-pagination d-lg-none"></div>
+            <div class="swiper-pagination d-md-none"></div>
             <!-- Swiper Pagination End -->
 
             <!-- Swiper Navigation Start -->
-            <div class="home-slider-prev swiper-button-prev main-slider-nav d-lg-flex d-none"><i class="pe-7s-angle-left"></i></div>
-            <div class="home-slider-next swiper-button-next main-slider-nav d-lg-flex d-none"><i class="pe-7s-angle-right"></i></div>
+            <div class="home-slider-prev swiper-button-prev main-slider-nav d-md-flex d-none"><i class="pe-7s-angle-left"></i></div>
+            <div class="home-slider-next swiper-button-next main-slider-nav d-md-flex d-none"><i class="pe-7s-angle-right"></i></div>
             <!-- Swiper Navigation End -->
         </div>
     </div>
     <!-- Hero/Intro Slider End -->
 
-    <!-- Banner Section Start -->
-    <div class="section section-margin">
+    <!-- Product Banner Carousel Start -->
+    <div class="section section-padding">
         <div class="container">
-            <!-- Banners Start -->
-            <div class="row mb-n6">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-banner-carousel">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="single-product-banner" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="banner-img">
+                                            <a href="shop.html"><img src="assets/images/testimonial/lg-thumb-1.png" alt="Banner Thumb"></a>
+                                        </div>
+                                        <div class="single-banner-content">
+                                            <h4 class="title">
+                                                <a href="shop.html">For Baby</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-product-banner" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="banner-img">
+                                            <a href="shop.html"><img src="assets/images/testimonial/lg-thumb-2.png" alt="Banner Thumb"></a>
+                                        </div>
+                                        <div class="single-banner-content">
+                                            <h4 class="title">
+                                                <a href="shop.html">Age: 1-2</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-product-banner" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="banner-img">
+                                            <a href="shop.html"><img src="assets/images/testimonial/lg-thumb-3.png" alt="Banner Thumb"></a>
+                                        </div>
+                                        <div class="single-banner-content">
+                                            <h4 class="title">
+                                                <a href="shop.html">Age: 3-5</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <!-- Banner Start -->
-                <div class="col-md-6 col-12 mb-6 pe-lg-2 pe-md-3">
-                    <a href="shop.html" class="banner" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/images/banner/1.png" alt="Banner Image" />
-                    </a>
-                </div>
-                <!-- Banner End -->
+                                <div class="swiper-slide">
+                                    <div class="single-product-banner" data-aos="fade-up" data-aos-delay="500">
+                                        <div class="banner-img">
+                                            <a href="shop.html"><img src="assets/images/testimonial/lg-thumb-4.png" alt="Banner Thumb"></a>
+                                        </div>
+                                        <div class="single-banner-content">
+                                            <h4 class="title">
+                                                <a href="shop.html">Age: 6-8</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <!-- Banner Start -->
-                <div class="col-md-6 col-12 mb-6 ps-lg-2 ps-md-3">
-                    <a href="shop.html" class="banner" data-aos="fade-up" data-aos-delay="400">
-                        <img src="assets/images/banner/2.png" alt="Banner Image" />
-                    </a>
-                </div>
-                <!-- Banner End -->
-
-            </div>
-            <!-- Banners End -->
-        </div>
-    </div>
-    <!-- Banner Section End -->
-
-    <!-- Product Section Start -->
-    <div class="section section-margin mt-0 position-relative">
-        <div class="container">
-            <!-- Section Title & Tab Start -->
-            <div class="row mb-lg-8 mb-6">
-                <!-- Section Title Start -->
-                <div class="col-lg col-12">
-                    <div class="section-title mb-0 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <h2 class="title mb-2">Featured Collection</h2>
-                        <p>Add featured products to weekly lineup</p>
+                                <div class="swiper-slide">
+                                    <div class="single-product-banner" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="banner-img">
+                                            <a href="shop.html"><img src="assets/images/testimonial/lg-thumb-5.png" alt="Banner Thumb"></a>
+                                        </div>
+                                        <div class="single-banner-content">
+                                            <h4 class="title">
+                                                <a href="shop.html">Age: 9+</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Section Title End -->
+            </div>
+        </div>
+    </div>
+    <!-- Product Banner Carousel End -->
 
+    <!-- Product Section Start -->
+    <div class="section position-relative">
+        <div class="container">
+
+            <!-- Section Title & Tab Start -->
+            <div class="row">
+                <!-- Tab Start -->
+                <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                    <ul class="product-tab-nav nav justify-content-center mb-n3 pb-10 title-border-bottom">
+                        <li class="nav-item mb-3"><a class="nav-link active" data-bs-toggle="tab" href="#tab-product-all">Best Sale</a></li>
+                        <li class="nav-item mb-3"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-featured">Featured</a></li>
+                        <li class="nav-item mb-3"><a class="nav-link" data-bs-toggle="tab" href="#tab-product-all">On Sale</a></li>
+                    </ul>
+                </div>
+                <!-- Tab End -->
             </div>
             <!-- Section Title & Tab End -->
 
             <!-- Products Tab Start -->
             <div class="row">
                 <div class="col" data-aos="fade-up" data-aos-delay="600">
-                    <div class="product-carousel arrow-outside-container">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <!-- Product Start -->
-                                <div class="swiper-slide">
-                                    <div class="product-wrapper">
-                                        <div class="product mb-6">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/1.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="sale">-18%</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="tab-product-all">
+                            <div class="product-carousel arrow-outside-container">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/1.jpg" alt="Product" />
+                                                            <img class="second-image fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="sale">-18%</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Dinosaur Toys for Baby</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$12.50
+																</span>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Dinosaur Toys for Baby</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$12.50
-														</span>
-                                                </span>
                                             </div>
                                         </div>
-                                        <div class="product">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/2.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/4.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="new">New</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
-                                                </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Mini Car Toy for Kids</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$28.50
-														</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+                                        <!-- Product End -->
 
-                                <!-- Product Start -->
-                                <div class="swiper-slide">
-                                    <div class="product-wrapper">
-                                        <div class="product mb-6">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/5.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/7.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="sale">-20%</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/2.jpg" alt="Product" />
+                                                            <img class="second-image fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="sale">-20%</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Mini Car Toy for Kids</a></h5>
+                                                        <span class="price">
+																<span class="new">$38.50</span>
+                                                        <span class="old">$42.85</span>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Happy Kids With Gift</a></h5>
-                                                <span class="price">
-														<span class="new">$38.50</span>
-                                                <span class="old">$42.85</span>
-                                                </span>
                                             </div>
                                         </div>
-                                        <div class="product">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/4.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/6.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="sale">-20%</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
-                                                </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Baby Cat Doll</a></h5>
-                                                <span class="price">
-														<span class="new">$38.50</span>
-                                                <span class="old">$42.85</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+                                        <!-- Product End -->
 
-                                <!-- Product Start -->
-                                <div class="swiper-slide">
-                                    <div class="product-wrapper">
-                                        <div class="product mb-6">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/8.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/10.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="new">New</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="new">New</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">This is the testing</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$28.50
+																</span>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Happy Kids With Gift</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$28.50
-														</span>
-                                                </span>
                                             </div>
                                         </div>
-                                        <div class="product">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/9.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/11.jpg" alt="Product" />
-                                                </a>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
-                                                </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Dinosaur Toys for Baby</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$25.50
-														</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+                                        <!-- Product End -->
 
-                                <!-- Product Start -->
-                                <div class="swiper-slide">
-                                    <div class="product-wrapper">
-                                        <div class="product mb-6">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/12.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/1.jpg" alt="Product" />
-                                                </a>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/4.jpg" alt="Product" />
+                                                        </a>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Product title here</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$25.50
+																</span>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Baby Rocking Horse</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$25.50
-														</span>
-                                                </span>
                                             </div>
                                         </div>
-                                        <div class="product">
-                                            <div class="thumb">
-                                                <a href="single-product.html" class="image">
-                                                    <img class="fit-image" src="assets/images/products/medium-product/7.jpg" alt="Product" />
-                                                    <img class="second-image fit-image" src="assets/images/products/medium-product/5.jpg" alt="Product" />
-                                                </a>
-                                                <span class="badges">
-														<span class="sale">-18%</span>
-                                                </span>
-                                                <div class="actions">
-                                                    <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
-                                                    <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
-                                                    <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
-                                                </div>
-                                                <div class="add-cart-btn">
-                                                    <button class="btn btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="title"><a href="single-product.html">Baby Cat Doll</a></h5>
-                                                <span class="price">
-														<span class="new">
-															$12.50
-														</span>
-                                                </span>
-                                            </div>
-                                        </div>
+                                        <!-- Product End -->
                                     </div>
+
+                                    <div class="swiper-pagination d-block d-md-none"></div>
+                                    <div class="swiper-button-prev swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-left"></i></div>
+                                    <div class="swiper-button-next swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-right"></i></div>
                                 </div>
-                                <!-- Product End -->
                             </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-product-featured">
+                            <div class="product-carousel arrow-outside-container">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
 
-                            <div class="swiper-pagination d-block d-md-none"></div>
-                            <div class="swiper-button-prev swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-left"></i></div>
-                            <div class="swiper-button-next swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-right"></i></div>
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="new">New</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">This is the testing</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$28.50
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Product End -->
+
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/2.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="sale">-20%</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Robotics for Kids</a></h5>
+                                                        <span class="price">
+																<span class="new">$38.50</span>
+                                                        <span class="old">$42.85</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Product End -->
+
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/1.jpg" alt="Product" />
+                                                            <img class="second-image fit-image" src="assets/images/products/medium-product/3.jpg" alt="Product" />
+                                                        </a>
+                                                        <span class="badges">
+																<span class="sale">-18%</span>
+                                                        </span>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Unique content product</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$12.50
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Product End -->
+
+                                        <!-- Product Start -->
+                                        <div class="swiper-slide">
+                                            <div class="product-wrapper">
+                                                <div class="product">
+                                                    <div class="thumb border-0">
+                                                        <a href="single-product.html" class="image">
+                                                            <img class="fit-image" src="assets/images/products/medium-product/4.jpg" alt="Product" />
+                                                        </a>
+                                                        <div class="actions">
+                                                            <a href="wishlist.html" class="action wishlist"><i class="pe-7s-like"></i></a>
+                                                            <a href="compare.html" class="action compare"><i class="pe-7s-refresh-2"></i></a>
+                                                            <a href="#" class="action quickview" data-bs-toggle="modal" data-bs-target="#quick-view"><i class="pe-7s-search"></i></a>
+                                                        </div>
+                                                        <div class="add-cart-btn">
+                                                            <button class="btn btn-sm btn-whited btn-hover-primary text-capitalize add-to-cart">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title"><a href="single-product.html">Product title here</a></h5>
+                                                        <span class="price">
+																<span class="new">
+																	$25.50
+																</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Product End -->
+
+                                    </div>
+
+                                    <div class="swiper-pagination d-block d-md-none"></div>
+                                    <div class="swiper-button-prev swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-left"></i></div>
+                                    <div class="swiper-button-next swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-right"></i></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -687,898 +809,511 @@
     </div>
     <!-- Product Section End -->
 
-    <!-- Testimonial Section Start -->
-    <div class="section testimonial-bg">
+    <!-- Banner Section Start -->
+    <div class="section section-margin">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title text-center" data-aos="fade-up" data-aos-delay="200">
-                        <h2 class="title text-white">Testimonials</h2>
-                        <p class="sub-title text-white">What they say</p>
-                    </div>
-                    <!-- Section Title End -->
-
-                    <!-- Testimonial Carousel Start -->
-                    <div class="testimonial-carousel" data-aos="fade-up" data-aos-delay="400">
-                        <div class="swiper-container testimonial-gallery-thumbs">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assets/images/testimonial/thumb-1.png" alt="Product Image">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/testimonial/thumb-2.png" alt="Product Image">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/testimonial/thumb-3.png" alt="Product Image">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/testimonial/thumb-4.png" alt="Product Image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-container testimonial-gallery-top">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Content Start -->
-                                    <div class="testimonial-content text-center">
-                                        <p>Vivamus a lobortis ipsum, vel condimentum magna. Etiam id turpis tortor. Nunc scelerisque, nisi a blandit varius, nunc purus venenatis ligula, sed venenatis orci augue nec sapien. Cum sociis natoque</p>
-                                        <span class="ratings justify-content-center mb-3">
-												<span class="rating-wrap text-white">
-													<span class="star text-warning" style="width: 80%"></span>
-                                        </span>
-                                        <span class="rating-num text-light">(3)</span>
-                                        </span>
-                                        <h4 class="testimonial-author mb-0">Anamika lusy</h4>
-                                    </div>
-                                    <!-- Testimonial Content End -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Content Start -->
-                                    <div class="testimonial-content text-center">
-                                        <p>Vivamus a lobortis ipsum, vel condimentum magna. Etiam id turpis tortor. Nunc scelerisque, nisi a blandit varius, nunc purus venenatis ligula, sed venenatis orci augue nec sapien. Cum sociis natoque</p>
-                                        <span class="ratings justify-content-center mb-3">
-												<span class="rating-wrap text-white">
-													<span class="star text-warning" style="width: 80%"></span>
-                                        </span>
-                                        <span class="rating-num text-light">(3)</span>
-                                        </span>
-                                        <h4 class="testimonial-author mb-0">Tinsy Nilom</h4>
-                                    </div>
-                                    <!-- Testimonial Content End -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Content Start -->
-                                    <div class="testimonial-content text-center">
-                                        <p>Vivamus a lobortis ipsum, vel condimentum magna. Etiam id turpis tortor. Nunc scelerisque, nisi a blandit varius, nunc purus venenatis ligula, sed venenatis orci augue nec sapien. Cum sociis natoque</p>
-                                        <span class="ratings justify-content-center mb-3">
-												<span class="rating-wrap text-white">
-													<span class="star text-warning" style="width: 80%"></span>
-                                        </span>
-                                        <span class="rating-num text-light">(3)</span>
-                                        </span>
-                                        <h4 class="testimonial-author mb-0">Cristal Aryan</h4>
-                                    </div>
-                                    <!-- Testimonial Content End -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- Testimonial Content Start -->
-                                    <div class="testimonial-content text-center">
-                                        <p>Vivamus a lobortis ipsum, vel condimentum magna. Etiam id turpis tortor. Nunc scelerisque, nisi a blandit varius, nunc purus venenatis ligula, sed venenatis orci augue nec sapien. Cum sociis natoque</p>
-                                        <span class="ratings justify-content-center mb-3">
-												<span class="rating-wrap text-white">
-													<span class="star text-warning" style="width: 80%"></span>
-                                        </span>
-                                        <span class="rating-num text-light">(3)</span>
-                                        </span>
-                                        <h4 class="testimonial-author mb-0">Jems Jhon</h4>
-                                    </div>
-                                    <!-- Testimonial Content End -->
-                                </div>
-                            </div>
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next swiper-button-white d-none"></div>
-                            <div class="swiper-button-prev swiper-button-white d-none"></div>
-                        </div>
-                    </div>
-                    <!-- Testimonial Carousel End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial Section End -->
-
-    <!-- Product List Banner Section Start -->
-    <div class="section section-padding">
-        <div class="container">
+            <!-- Banners Start -->
             <div class="row mb-n6">
 
                 <!-- Banner Start -->
-                <div class="col-lg-4 col-md-12 col-12 mb-6">
+                <div class="col-12 col-md-3 col-lg-3 mb-6">
                     <div class="banner" data-aos="fade-up" data-aos-delay="200">
-                        <a href="shop.html"><img src="assets/images/banner/3.png" alt="Banner Image" /></a>
+                        <a href="shop.html"><img src="assets/images/banner/banner-1.jpg" alt="Banner Image" /></a>
                     </div>
                 </div>
                 <!-- Banner End -->
 
-                <!-- Product List Start -->
-                <div class="col-lg-4 col-md-6 col-12 mb-6">
-
-                    <!-- Product List Wrapper Start -->
-                    <div class="product-list-wrapper" data-aos="fade-up" data-aos-delay="400">
-                        <!-- Product List Title Start -->
-                        <div class="product-list-title mb-5">
-                            <h4 class="title">Best Seller Product</h4>
-                        </div>
-                        <!-- Product List Title End -->
-
-                        <!-- Product List Carousel Start -->
-                        <div class="product-list-carousel">
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/1.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Happy Kids With Gift</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 67%"></span>
-                                                </span>
-                                                <span class="rating-num">(4)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$12.50</span>
-                                                <span class="old">$15.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/2.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Cat Doll</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 80%"></span>
-                                                </span>
-                                                <span class="rating-num">(3)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$10.50</span>
-                                                <span class="old">$12.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Mini Car Toy for Kids</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 50%"></span>
-                                                </span>
-                                                <span class="rating-num">(6)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$22.50</span>
-                                                <span class="old">$25.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/4.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/7.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Dinosaur Toys for Baby</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 60%"></span>
-                                                </span>
-                                                <span class="rating-num">(5)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$18.50</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/5.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/6.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Robotics for Kids </a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 75%"></span>
-                                                </span>
-                                                <span class="rating-num">(9)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$20.50</span>
-                                                <span class="old">$22.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                    </div>
-
-                                    <div class="swiper-slide">
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/18.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/17.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Happy Kids With Gift</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 67%"></span>
-                                                </span>
-                                                <span class="rating-num">(4)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$13.00</span>
-                                                <span class="old">$16.00</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/16.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/15.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Mini Car Toy for Kids</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 80%"></span>
-                                                </span>
-                                                <span class="rating-num">(3)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$14.50</span>
-                                                <span class="old">$15.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/14.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/13.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Rocking Horse</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 50%"></span>
-                                                </span>
-                                                <span class="rating-num">(6)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$26.50</span>
-                                                <span class="old">$27.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/12.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/11.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Cat Doll</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 60%"></span>
-                                                </span>
-                                                <span class="rating-num">(5)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$19.50</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Dinosaur Toys for Baby</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 75%"></span>
-                                                </span>
-                                                <span class="rating-num">(9)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$21.50</span>
-                                                <span class="old">$22.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                    </div>
-                                </div>
-
-                                <!-- Swiper Pagination Start -->
-                                <div class="swiper-pagination d-none"></div>
-                                <!-- Swiper Pagination End -->
-
-                                <!-- Next Previous Button Start -->
-                                <div class="swiper-product-list-next swiper-button-next"><i class="pe-7s-angle-right"></i></div>
-                                <div class="swiper-product-list-prev swiper-button-prev"><i class="pe-7s-angle-left"></i></div>
-                                <!-- Next Previous Button End -->
-                            </div>
-
-                        </div>
-                        <!-- Product List Carousel End -->
+                <!-- Banner Start -->
+                <div class="col-12 col-md-6 col-lg-6 mb-6">
+                    <div class="banner" data-aos="fade-up" data-aos-delay="400">
+                        <a href="shop.html"><img src="assets/images/banner/banner-2.jpg" alt="Banner Image" /></a>
                     </div>
-                    <!-- Product List Wrapper End -->
-
                 </div>
-                <!-- Product List End -->
+                <!-- Banner End -->
+
+                <!-- Banner Start -->
+                <div class="col-12 col-md-3 col-lg-3 mb-6">
+                    <div class="banner" data-aos="fade-up" data-aos-delay="600">
+                        <a href="shop.html"><img src="assets/images/banner/banner-4.jpg" alt="Banner Image" /></a>
+                    </div>
+                </div>
+                <!-- Banner End -->
+
+            </div>
+            <!-- Banners End -->
+        </div>
+    </div>
+    <!-- Banner Section End -->
+
+    <!-- Product List Banner Section Start -->
+    <div class="section">
+        <div class="container">
+            <div class="row">
 
                 <!-- Product List Start -->
-                <div class="col-lg-4 col-md-6 col-12 mb-6">
+                <div class="col-12">
 
-                    <!-- Product List Wrapper Start -->
-                    <div class="product-list-wrapper" data-aos="fade-up" data-aos-delay="600">
+                    <!-- Section Title Start -->
+                    <div class="section-title text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="title">On-Sale Product</h2>
+                        <p class="sub-title">Check out on-sale Producs</p>
+                    </div>
+                    <!-- Section Title End -->
 
-                        <!-- Product List Title Start -->
-                        <div class="product-list-title mb-5">
-                            <h4 class="title">On-Sale Product</h4>
-                        </div>
-                        <!-- Product List Title End -->
+                    <!-- Product List Carousel Start -->
+                    <div class="product-list-carousel-3 arrow-outside-container" data-aos="fade-up" data-aos-delay="600">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
 
-                        <!-- Product List Carousel Start -->
-                        <div class="product-list-carousel-2">
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                <div class="swiper-slide">
 
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
 
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/18.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/17.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/12.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
+                                                </a>
                                             </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Happy Kids With Gift</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 67%"></span>
-                                                </span>
-                                                <span class="rating-num">(4)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$13.00</span>
-                                                <span class="old">$16.00</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
                                         </div>
-                                        <!-- Single Product List End -->
+                                        <!-- Product List Thumb End -->
 
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/16.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/15.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Mini Car Toy for Kids</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 80%"></span>
-                                                </span>
-                                                <span class="rating-num">(3)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$14.50</span>
-                                                <span class="old">$15.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Happy Kids With Gift</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 67%"></span>
+                                            </span>
+                                            <span class="rating-num">(4)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$12.50</span>
+                                            <span class="old">$15.85</span>
+                                            </span>
                                         </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/14.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/13.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Rocking Horse</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 50%"></span>
-                                                </span>
-                                                <span class="rating-num">(6)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$26.50</span>
-                                                <span class="old">$27.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/12.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/11.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Cat Doll</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 60%"></span>
-                                                </span>
-                                                <span class="rating-num">(5)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$19.50</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Dinosaur Toys for Baby</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 75%"></span>
-                                                </span>
-                                                <span class="rating-num">(9)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$21.50</span>
-                                                <span class="old">$22.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
+                                        <!-- Product List Content End -->
 
                                     </div>
+                                    <!-- Single Product List End -->
 
-                                    <div class="swiper-slide">
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
 
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/1.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/2.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
+                                                </a>
                                             </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Happy Kids With Gift</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 67%"></span>
-                                                </span>
-                                                <span class="rating-num">(4)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$12.50</span>
-                                                <span class="old">$15.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
                                         </div>
-                                        <!-- Single Product List End -->
+                                        <!-- Product List Thumb End -->
 
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/2.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Baby Cat Doll</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 80%"></span>
-                                                </span>
-                                                <span class="rating-num">(3)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$10.50</span>
-                                                <span class="old">$12.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Baby Cat Doll</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 80%"></span>
+                                            </span>
+                                            <span class="rating-num">(3)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$10.50</span>
+                                            <span class="old">$12.85</span>
+                                            </span>
                                         </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Mini Car Toy for Kids</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 50%"></span>
-                                                </span>
-                                                <span class="rating-num">(6)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$22.50</span>
-                                                <span class="old">$25.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list mb-4">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/4.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/7.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Dinosaur Toys for Baby</a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 60%"></span>
-                                                </span>
-                                                <span class="rating-num">(5)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$18.50</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
-
-                                        <!-- Single Product List Start -->
-                                        <div class="single-product-list">
-
-                                            <!-- Product List Thumb Start -->
-                                            <div class="product">
-                                                <div class="thumb">
-                                                    <a href="single-product.html" class="image">
-                                                        <img class="fit-image first-image" src="assets/images/products/small-product/5.jpg" alt="Product Image">
-                                                        <img class="fit-image second-image" src="assets/images/products/small-product/6.jpg" alt="Product Image">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- Product List Thumb End -->
-
-                                            <!-- Product List Content Start -->
-                                            <div class="product-list-content">
-                                                <h6 class="product-name">
-                                                    <a href="single-product.html">Robotics for Kids </a>
-                                                </h6>
-                                                <span class="ratings justify-content-start mb-3">
-														<span class="rating-wrap">
-															<span class="star" style="width: 75%"></span>
-                                                </span>
-                                                <span class="rating-num">(9)</span>
-                                                </span>
-                                                <span class="price">
-														<span class="new">$20.50</span>
-                                                <span class="old">$22.85</span>
-                                                </span>
-                                            </div>
-                                            <!-- Product List Content End -->
-
-                                        </div>
-                                        <!-- Single Product List End -->
+                                        <!-- Product List Content End -->
 
                                     </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Mini Car Toy for Kids</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 50%"></span>
+                                            </span>
+                                            <span class="rating-num">(6)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$22.50</span>
+                                            <span class="old">$25.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/1.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Simple Toy Duck</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 67%"></span>
+                                            </span>
+                                            <span class="rating-num">(4)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$12.50</span>
+                                            <span class="old">$15.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Mini Car Toy for Kids</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 50%"></span>
+                                            </span>
+                                            <span class="rating-num">(6)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$22.50</span>
+                                            <span class="old">$25.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/2.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Baby Cat Doll</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 80%"></span>
+                                            </span>
+                                            <span class="rating-num">(3)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$10.50</span>
+                                            <span class="old">$12.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/5.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/6.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Robotics for Kids </a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 75%"></span>
+                                            </span>
+                                            <span class="rating-num">(9)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$20.50</span>
+                                            <span class="old">$22.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/2.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/9.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Baby Cat Doll</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 80%"></span>
+                                            </span>
+                                            <span class="rating-num">(3)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$10.50</span>
+                                            <span class="old">$12.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Mini Car Toy for Kids</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 50%"></span>
+                                            </span>
+                                            <span class="rating-num">(6)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$22.50</span>
+                                            <span class="old">$25.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/1.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/10.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Mini Car Toy for Kids</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 67%"></span>
+                                            </span>
+                                            <span class="rating-num">(4)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$12.50</span>
+                                            <span class="old">$15.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list mb-6">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/3.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/8.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html">Dinosaur Toys for Baby</a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 50%"></span>
+                                            </span>
+                                            <span class="rating-num">(6)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$22.50</span>
+                                            <span class="old">$25.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
+                                    <!-- Single Product List Start -->
+                                    <div class="single-product-list">
+
+                                        <!-- Product List Thumb Start -->
+                                        <div class="product">
+                                            <div class="thumb">
+                                                <a href="single-product.html" class="image">
+                                                    <img class="fit-image first-image" src="assets/images/products/small-product/5.jpg" alt="Product Image">
+                                                    <img class="fit-image second-image" src="assets/images/products/small-product/6.jpg" alt="Product Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Product List Thumb End -->
+
+                                        <!-- Product List Content Start -->
+                                        <div class="product-list-content">
+                                            <h6 class="product-name">
+                                                <a href="single-product.html"> Dummy text for title </a>
+                                            </h6>
+                                            <span class="ratings justify-content-start mb-3">
+													<span class="rating-wrap">
+														<span class="star" style="width: 75%"></span>
+                                            </span>
+                                            <span class="rating-num">(9)</span>
+                                            </span>
+                                            <span class="price">
+													<span class="new">$20.50</span>
+                                            <span class="old">$22.85</span>
+                                            </span>
+                                        </div>
+                                        <!-- Product List Content End -->
+
+                                    </div>
+                                    <!-- Single Product List End -->
+
                                 </div>
 
-                                <!-- Swiper Pagination Start -->
-                                <div class="swiper-pagination d-none"></div>
-                                <!-- Swiper Pagination End -->
-
-                                <!-- Next Previous Button Start -->
-                                <div class="swiper-product-list-next swiper-button-next"><i class="pe-7s-angle-right"></i></div>
-                                <div class="swiper-product-list-prev swiper-button-prev"><i class="pe-7s-angle-left"></i></div>
-                                <!-- Next Previous Button End -->
                             </div>
 
+                            <!-- Swiper Pagination Start -->
+                            <div class="swiper-pagination d-block d-md-none"></div>
+                            <!-- Swiper Pagination End -->
+
+                            <!-- Next Previous Button Start -->
+                            <div class="product-group-list-next swiper-button-next swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-right"></i></div>
+                            <div class="product-group-list-prev swiper-button-prev swiper-nav-button d-none d-md-flex"><i class="pe-7s-angle-left"></i></div>
+                            <!-- Next Previous Button End -->
+
+
                         </div>
-                        <!-- Product List Carousel End -->
 
                     </div>
-                    <!-- Product List Wrapper End -->
+                    <!-- Product List Carousel End -->
 
                 </div>
                 <!-- Product List End -->
@@ -1587,6 +1322,26 @@
         </div>
     </div>
     <!-- Product List Banner Section End -->
+
+    <!-- Banner Section Start -->
+    <div class="section section-margin">
+        <div class="container">
+            <!-- Banners Start -->
+            <div class="row">
+
+                <!-- Banner Start -->
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="banner">
+                        <a href="shop.html"><img src="assets/images/banner/4.png" alt="Banner Image" /></a>
+                    </div>
+                </div>
+                <!-- Banner End -->
+
+            </div>
+            <!-- Banners End -->
+        </div>
+    </div>
+    <!-- Banner Section End -->
 
     <!-- Latest Blog Section Start -->
     <div class="section">
@@ -1703,7 +1458,7 @@
         <div class="container">
             <div class="border-top border-bottom">
                 <div class="row">
-                    <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                         <!-- Brand Logo Wrapper Start -->
                         <div class="brand-logo-carousel arrow-outside-container">
                             <div class="swiper-container">
@@ -1768,7 +1523,7 @@
     <!-- Footer Section Start -->
     <footer class="section footer-section">
         <!-- Footer Top Start -->
-        <div class="footer-top bg-primary section-padding">
+        <div class="footer-top bg-secondary section-padding">
             <div class="container">
                 <div class="row mb-n8">
                     <div class="col-12 col-sm-6 col-lg-3 mb-8">
@@ -1815,7 +1570,7 @@
                                 <!-- Newsletter Form Start -->
                                 <div class="newsletter-form-wrap pt-1">
                                     <form id="mc-form" class="mc-form">
-                                        <input type="email" id="mc-email" class="form-control email-box mb-4" placeholder="demo@example.com" name="EMAIL">
+                                        <input type="email" id="mc-email" class="form-control email-box border-top-0 border-start-0 border-end-0 ps-0 mb-4" placeholder="demo@example.com" name="EMAIL">
                                         <button id="mc-submit" class="newsletter-btn" type="submit">Subscribe</button>
                                     </form>
                                     <!-- mailchimp-alerts Start -->
@@ -1837,7 +1592,7 @@
         <!-- Footer Top End -->
 
         <!-- Footer Bottom Start -->
-        <div class="footer-bottom bg-secondary pt-4 pb-4">
+        <div class="footer-bottom bg-primary pt-4 pb-4">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 text-center">
@@ -1851,7 +1606,6 @@
         <!-- Footer Bottom End -->
     </footer>
     <!-- Footer Section End -->
-
 
     <!-- Modal Start  -->
     <div class="modalquickview modal fade" id="quick-view" tabindex="-1" aria-labelledby="quick-view" role="dialog" aria-hidden="true">
@@ -2178,5 +1932,5 @@
 </body>
 
 
-<!-- Mirrored from htmldemo.net/toyqo/toyqo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Feb 2023 19:54:10 GMT -->
+<!-- Mirrored from htmldemo.net/toyqo/toyqo/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Feb 2023 19:54:28 GMT -->
 </html>
