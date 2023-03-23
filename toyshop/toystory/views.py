@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.views.generic.base import TemplateView
+from .forms import UserForm
+from django.views.generic.edit import CreateView
+from django.urls import reverse_lazy
 
 # Create your views here.
 class Index(TemplateView):
@@ -22,6 +25,11 @@ class Blog(TemplateView):
 
 class Compare(TemplateView):
     template_name = 'toystory/compare.html'
+
+class UserFormView(CreateView):
+    template_name = 'toystory/register.html'
+    success_url = reverse_lazy('register')
+    form_class = UserForm
 
 class Register(TemplateView):
     template_name = 'toystory/register.html'

@@ -18,7 +18,7 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from toystory.views import Index, About, Blog, Cart, Checkout, Compare, Contact, Login, Myaccount, Register, Shop, Singleproduct, Wishlist, Faq, BlogDS, BlogD, BlogLS, BlogRS, Error, ShopLS, ShopRS, ShopLLS, ShopLRS, ShopLF, SP, SPA, SPGL, SPGR, SPG, SPN, SPSale, SPS, SPSL, SPSR, SPTSL, SPTSR
+from toystory.views import Index, About, Blog, Cart, Checkout, Compare, Contact, Login, Myaccount, UserFormView, Shop, Singleproduct, Wishlist, Faq, BlogDS, BlogD, BlogLS, BlogRS, Error, ShopLS, ShopRS, ShopLLS, ShopLRS, ShopLF, SP, SPA, SPGL, SPGR, SPG, SPN, SPSale, SPS, SPSL, SPSR, SPTSL, SPTSR
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,7 +31,7 @@ urlpatterns = [
     path('contact/', Contact.as_view(), name='contact'),
     path('login/', Login.as_view(), name='login'),
     path('my-account/', Myaccount.as_view(), name='my-account'),
-    path('register/', Register.as_view(), name='register'),
+    path('register/', UserFormView.as_view(), name='register'),
     path('shop/', Shop.as_view(), name='shop'),
     path('single-product/', Singleproduct.as_view(), name='single-product'),
     path('wishlist/', Wishlist.as_view(), name='wishlist'),

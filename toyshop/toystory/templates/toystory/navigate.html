@@ -42,83 +42,24 @@
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="main-menu">
                             <ul>
-                                <li class="has-children">
-                                    <a href="{% url 'index' %}">Home <i class="fa fa-angle-down"></i></a>
-                                    <ul class="sub-menu">
-                                    <li><a href="{% url 'blog' %}">Blog</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="{% url 'index' %}">Home</a>
                                 </li>
-                                <li class="has-children position-static">
-                                    <a href="#">Shop <i class="fa fa-angle-down"></i></a>
-                                    <ul class="mega-menu row">
-                                        <li class="col-3">
-                                            <h4 class="mega-menu-title">Shop Layout</h4>
-                                            <ul class="mb-n2">
-                                                <li><a href="{% url 'shop' %}">Shop Grid</a></li>
-                                                <li><a href="{% url 'shop-left-sidebar' %}">Shop Left Sidebar</a></li>
-                                                <li><a href="{% url 'shop-right-sidebar' %}">Shop Right Sidebar</a></li>
-                                                <li><a href="{% url 'shop-list-fullwidth' %}">Shop List Fullwidth</a></li>
-                                                <li><a href="{% url 'shop-list-left-sidebar' %}">Shop List Left Sidebar</a></li>
-                                                <li><a href="{% url 'shop-list-right-sidebar' %}">Shop List Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="mega-menu-title">Product Layout</h4>
-                                            <ul class="mb-n2">
-                                                <li><a href="{% url 'single-product' %}">Single Product</a></li>
-                                                <li><a href="{% url 'single-product-sale' %}">Single Product Sale</a></li>
-                                                <li><a href="{% url 'single-product-group' %}">Single Product Group</a></li>
-                                                <li><a href="{% url 'single-product-normal' %}">Single Product Normal</a></li>
-                                                <li><a href="{% url 'single-product-affiliate' %}">Single Product Affiliate</a></li>
-                                                <li><a href="{% url 'single-product-slider' %}">Single Product Slider</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="mega-menu-title">Product Layout</h4>
-                                            <ul class="mb-n2">
-                                                <li><a href="{% url 'single-product-gallery-left' %}">Gallery Left</a></li>
-                                                <li><a href="{% url 'single-product-gallery-right' %}">Gallery Right</a></li>
-                                                <li><a href="{% url 'single-product-tab-style-left' %}">Tab Style Left</a></li>
-                                                <li><a href="{% url 'single-product-tab-style-right' %}">Tab Style Right</a></li>
-                                                <li><a href="{% url 'single-product-sticky-left' %}">Sticky Left</a></li>
-                                                <li><a href="{% url 'single-product-sticky-right' %}">Sticky Right</a></li>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="mega-menu-title">Other Pages</h4>
-                                            <ul class="mb-n2">
-                                                <li><a href="{% url 'about' %}">About Us</a></li>
-                                                <li><a href="{% url 'contact' %}">Contact</a></li>
-                                                <li><a href="{% url 'faq' %}">Faq</a></li>
-                                                <li><a href="{% url 'error-404' %}">Error 404</a></li>
-                                                <li><a href="{% url 'my-account' %}">My Account</a></li>
-                                                <li><a href="{% url 'login' %}">Loging | Register</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="{% url 'shop' %}">Shop</a>
                                 </li>
-                                <li class="has-children">
-                                    <a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="error-404.html">Error 404</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="{% url 'about' %}">About</a>
                                 </li>
-                                <li class="has-children">
-                                    <a href="#">Blog <i class="fa fa-angle-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="{% url 'blog' %}">Blog</a></li>
-                                        <li><a href="{% url 'blog-left-sidebar' %}">Blog Left Sidebar</a></li>
-                                        <li><a href="{% url 'blog-right-sidebar' %}">Blog Right Sidebar</a></li>
-                                        <li><a href="{% url 'blog-details' %}">Blog Details</a></li>
-                                        <li><a href="{% url 'blog-details-sidebar' %}">Blog Details Sidebar</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="{% url 'blog' %}">Blog</a>
                                 </li>
-                                <li><a href="{% url 'about' %}">About</a></li>
-                                <li><a href="{% url 'contact' %}">Contact</a></li>
+                                <li>
+                                    <a href="{% url 'contact' %}">Contact</a>
+                                </li>               
+                                <li>
+                                    <a href="{% url 'login' %}">Login</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

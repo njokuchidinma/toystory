@@ -1321,63 +1321,35 @@
             <div class="mobile-navigation">
                 <nav>
                     <ul class="mobile-menu">
+                        <li>
+                            <a href="{% url 'index' %}">Home</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'shop' %}">Shop</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'about' %}">About</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'blog' %}">Blog</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'contact' %}">Contact</a>
+                        </li>               
+                        <li>
+                            <a href="{% url 'login' %}">Login</a>
+                        </li>
                         <li class="has-children">
-                            <a href="{% url 'index' %}">Home <i class="fa fa-angle-down"></i></a>
+                            <a href="{% url 'index' %}">Home</a>
                         <li class="has-children">
-                            <a href="#">Shop <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a href="#">Shopping details<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="dropdown">
-                                <li><a href="{% url 'shop' %}">Shop Grid</a></li>
-                                <li><a href="{% url 'shop-left-sidebar' %}">Shop Left Sidebar</a></li>
-                                <li><a href="{% url 'shop-right-sidebar' %}">Shop Right Sidebar</a></li>
-                                <li><a href="{% url 'shop-list-fullwidth' %}">Shop List Fullwidth</a></li>
-                                <li><a href="{% url 'shop-list-left-sidebar' %}">Shop List Left Sidebar</a></li>
-                                <li><a href="{% url 'shop-list-right-sidebar' %}">Shop List Right Sidebar</a></li>
                                 <li><a href="{% url 'wishlist' %}">Wishlist</a></li>
                                 <li><a href="{% url 'cart' %}">Shopping Cart</a></li>
                                 <li><a href="{% url 'checkout' %}">Checkout</a></li>
                                 <li><a href="{% url 'compare' %}">Compare</a></li>
                             </ul>
                         </li>
-                        <li class="has-children">
-                            <a href="#">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="{% url 'single-product' %}">Single Product</a></li>
-                                <li><a href="{% url 'single-product-sale' %}">Single Product Sale</a></li>
-                                <li><a href="{% url 'single-product-group' %}">Single Product Group</a></li>
-                                <li><a href="{% url 'single-product-normal' %}">Single Product Normal</a></li>
-                                <li><a href="{% url 'single-product-affiliate' %}">Single Product Affiliate</a></li>
-                                <li><a href="{% url 'single-product-slider' %}">Single Product Slider</a></li>
-                                <li><a href="{% url 'single-product-gallery-left' %}">Gallery Left</a></li>
-                                <li><a href="{% url 'single-product-gallery-right' %}">Gallery Right</a></li>
-                                <li><a href="{% url 'single-product-tab-style-left' %}">Tab Style Left</a></li>
-                                <li><a href="{% url 'single-product-tab-style-right' %}">Tab Style Right</a></li>
-                                <li><a href="{% url 'single-product-sticky-left' %}">Sticky Left</a></li>
-                                <li><a href="{% url 'single-product-sticky-right' %}">Sticky Right</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="{% url 'about' %}">About Us</a></li>
-                                <li><a href="{% url 'contact' %}">Contact</a></li>
-                                <li><a href="{% url 'faq' %}">Faq</a></li>
-                                <li><a href="{% url 'error-404' %}">Error 404</a></li>
-                                <li><a href="{% url 'my-account' %}">My Account</a></li>
-                                <li><a href="{% url 'login' %}">Loging | Register</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="{% url 'blog' %}">Blog</a></li>
-                                <li><a href="{% url 'blog-left-sidebar' %}">Blog Left Sidebar</a></li>
-                                <li><a href="{% url 'blog-right-sidebar' %}">Blog Right Sidebar</a></li>
-                                <li><a href="{% url 'blog-details' %}">Blog Details</a></li>
-                                <li><a href="{% url 'blog-details-sidebar' %}">Blog Details Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{% url 'about' %}">About</a></li>
-                        <li><a href="{% url 'contact' %}">Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -38,32 +38,9 @@
                     <!-- Login Title & Content End -->
 
                     <!-- Form Action Start -->
-                    <form action="#" method="post">
-
-                        <!-- Input First Name Start -->
-                        <div class="single-input-item mb-3">
-                            <input type="text" placeholder="First Name">
-                        </div>
-                        <!-- Input First Name End -->
-
-                        <!-- Input Last Name Start -->
-                        <div class="single-input-item mb-3">
-                            <input type="text" placeholder="Last Name">
-                        </div>
-                        <!-- Input Last Name End -->
-
-                        <!-- Input Email Or Username Start -->
-                        <div class="single-input-item mb-3">
-                            <input type="email" placeholder="Email or Username">
-                        </div>
-                        <!-- Input Email Or Username End -->
-
-                        <!-- Input Password Start -->
-                        <div class="single-input-item mb-3">
-                            <input type="password" placeholder="Enter your Password">
-                        </div>
-                        <!-- Input Password End -->
-
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form }}
                         <!-- Checkbox & Subscribe Label Start -->
                         <div class="single-input-item mb-3">
                             <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
